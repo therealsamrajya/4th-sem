@@ -1,0 +1,10 @@
+clauses:
+run.
+male(ram).
+male(hari).
+male(gopal).
+female(sita).
+female(rita).
+likes(ram,icecream).
+likes(sita,icecream).
+likes(ram,sita).
