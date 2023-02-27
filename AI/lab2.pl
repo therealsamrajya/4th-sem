@@ -26,3 +26,10 @@ grade(Percent,G):-Percent>=90,G="You secured A grade",write(G);
      Percent>=45,G="You secured C grade",write(G);
      Percent>=35,G="You secured C- grade",write(G);
      G="sorry you are fail.",write(G).
+
+fact(0,1).
+fact(N,F):- N>0,
+            M is N-1,
+            fact(M,Fact),
+            F is N*Fact,
+            write(F),nl.
